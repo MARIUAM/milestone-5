@@ -1,0 +1,110 @@
+/* Styling form and resume sections */
+
+body {
+   font-family: 'Times New Roman', Times, serif;
+   margin: 20px;
+   padding: 0;
+   background-color: white;
+}
+
+form {
+   margin: auto;
+   background-color: rgb(247, 236, 242);
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+   padding: 20px;
+   max-width: 600px;
+}
+
+h1 {
+   text-align: center;
+   color: black;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+fieldset {
+   border: 2px solid rgb(247, 171, 8);
+   border-radius: 8px;
+   padding: 20px;
+   margin-bottom: 20px;
+   background-color: aliceblue;
+}
+
+legend {
+   font-weight: bold;
+   text-align: left;
+   color: rgb(34, 29, 29);
+   font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+   display: block;
+   margin-top: 10px;
+   color: black;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+input, textarea {
+   margin-top: 4px;
+   padding: 8px;
+   width: calc(100% - 1px);
+   border: 1px solid rgb(255, 153, 0);
+   border-radius: 4px;
+   box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+   display: block;
+   width: 100px;
+   background-color: rgb(247, 161, 3);
+   color: black;
+   border: none;
+   border-radius: 4px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+   margin-top: 10px;
+   font-size: 18px;
+   font-family: 'Times New Roman', Times, serif;
+   padding: 10px;
+   cursor: pointer;
+}
+
+button:hover {
+   color: rgb(241, 149, 9);
+}
+
+/* Dynamic Resume Display */
+#resume-display {
+   max-width: 600px;
+   margin: auto;
+   padding: 20px;
+   border: 2px solid rgb(241, 146, 2);
+   border-radius: 8px;
+   background-color: rgb(245, 160, 4);
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+   outline: none;
+   font-family: 'Times New Roman', Times, serif; /* Same font for resume */
+}
+
+#resume-display h2 {
+   color: black;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+/* Resume Section Titles */
+.resume-section-title {
+   font-size: 20px;
+   color: rgb(247, 171, 8);
+   border-bottom: 2px solid rgb(34, 29, 29);
+   padding-bottom: 5px;
+   margin-bottom: 10px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+p, ul {
+   font-size: 15px;
+   line-height: 1.6;
+   color: #555;
+   margin: 5px 0;
+   font-family: 'Times New Roman', Times, serif;
+}
